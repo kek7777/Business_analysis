@@ -17,7 +17,6 @@ This project is educational. It presents solutions to the most pressing problems
             <li><a href="#file-assignment">File assignment</a></li>
             <li><a href="#installation">Installation</a></li>
           </ul>
-    <li>
     <li><a href="#task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</a></li>
     <li><a href="#task-2-binary-classification">TASK 2. Binary classification</a></li>
     <li><a href="#task-3-analysis-of-subscriber-tariff-plans">TASK 3. Analysis of subscriber tariff plans</a></li>
