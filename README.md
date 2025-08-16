@@ -72,18 +72,27 @@ _Below is an example of how you can  installing and setting up model._
  
  Information that was used in the development of the project.
  
- * [Origin article of LSTM](https://www.researchgate.net/publication/13853244_Long_Short-Term_Memory)
- * [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
- * [LSTM Networks | A Detailed Explanation](https://towardsdatascience.com/lstm-networks-a-detailed-explanation-8fae6aefc7f9/)
+ * [Origin article of Prophet](https://facebook.github.io/prophet/static/prophet_paper_20170113.pdf)
+ * [XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/)
+
  
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
   <!-- CONTACT -->
  ## Contact
  
- Author of the project - [Email](https://kek777771.gmail.com)
+ Author of the project - [Email](https://kek777.mail.ru)
  
- Project Link: [https://github.com](https://github.com/kek7777/Model_ResNet18_MNIST.git)
+ Project Link: [https://github.com](https://github.com/kek7777/Data_Analytics.git)
+ 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+ <!-- CONTACT -->
+ ## TASK 1. Time series analysis and forecasting
+ 
+ Author of the project - [Email](https://kek777.mail.ru)
+ 
+ Project Link: [https://github.com](https://github.com/kek7777/Data_Analytics.git)
  
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
