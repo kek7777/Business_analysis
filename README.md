@@ -40,7 +40,7 @@ This is an example of how to list things you need to use the software and how to
 * task2.ipybn (for solution TASK 2. Binary classification)
 * task3.ipybn (for solution TASK 3. Analysis of subscriber tariff plans)
 * presentation (presentations with task results are located here)
-* result (vectors of forecasting are located here)
+* result (vectors of forecasting and saved Xgbmodel are located here)
 
 
 ### Installation
@@ -49,20 +49,12 @@ _Below is an example of how you can  installing and setting up model._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kek7777/Model_ResNet18_MNIST.git
+   git clone https://github.com/kek7777/Data_Analytics.git
    ```
 2. Install packages if necessary
    ```
    pip install -r requirements.txt
    ```
-3. Preparation the data
-  * Upload the label data to folder "/data".
-  * Define lenght the training and test data (default: training 70%, test 30%).
-  * To change lenght training and test data you should change "int(0.7*len(data))" in dataset.py to your values.
-  
-4. If you want to train and test the model by IDE then start MAIN.ipynb.
- 
-5. If you want to analyze the model by MLflow then start MAIN_mlflow.ipynb.
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
