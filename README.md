@@ -87,7 +87,7 @@ _Below is an example of how you can  installing and setting up model._
  
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- <!-- TASK 1 -->
+ <!-- TASK 1. Time series analysis and forecasting -->
  ## TASK 1. Time series analysis and forecasting
  
  Author of the project - [Email](https://kek777.mail.ru)
