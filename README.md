@@ -1,4 +1,4 @@
-<img src="src\img\title.jpg" width="800" height="300">
+<img src="src\img\title.jpg" width="800" height="250">
 
 <a id="readme-top"></a>
 
