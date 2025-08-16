@@ -3,10 +3,9 @@
 <a id="readme-top"></a>
 
 <!-- TITLE -->
-#  ** Data Analytics **
+#  **Data Analytics**
 
-This project is educational. It created to solve tasks of sentiment analysis.
-You can analyze the accuracy of a model based on its hyperparameters.
+This project is educational. It presents solutions to the most pressing problems   encountered in the practical work of a data analyst.
 
 <!-- TABLE OF CONTENTS -->
 <details>
