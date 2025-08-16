@@ -18,7 +18,6 @@ This project is educational. It presents solutions to the most pressing problems
             <li><a href="#installation">Installation</a></li>
           </ul>
     <li><a href="#time series">TASK 1. Time series analysis and forecasting</a></li>
-        </li>
     <li><a href="#license">TASK 2. Binary classification</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#Source-of-information">Source of information</a></li>
