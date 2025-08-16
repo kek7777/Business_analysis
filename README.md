@@ -5,7 +5,7 @@
 <!-- TITLE -->
 #  **Data Analytics**
 
-This project is educational. It presents solutions to the most pressing problems   encountered in the practical work of a data analyst.
+This project is educational. It presents solutions to the most pressing problems encountered in the practical work of a data analyst.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -26,26 +26,7 @@ This project is educational. It presents solutions to the most pressing problems
   </ol>
 </details>
 
-<!-- MODEL's STRUCTURE -->
-## Structure of the model
 
- <img src="images\arh_LSTM.jpg" width="800" height="600">  
-
-**The model includes:**
-* Input layer (224x224x1)
-* Convolution layer ( kernel - 7x7, channels - 64, stride - 2, padding - 3)
-* Subsampling layer (max pooling 3x3, stride - 2, padding - 1)
-* Residual block groups - 4:  
-group 1:  2 residual block (kernel - 3x3, channels - 64, stride - 1)  
-group 2:  2 residual block (kernel - 3x3, channels - 128, stride - 2)  
-group 3:  2 residual block (kernel - 3x3, channels - 256, stride - 2)  
-group 4:  2 residual block (kernel - 3x3, channels - 512, stride - 2)  
-* Subsampling layer (average pooling 1x1)
-* Fully connected layer (channels - 10)
-
-Model's activation functions are RELU. 
-
- 
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -55,11 +36,12 @@ The information about file assignment of the project and how that used.
 
 This is an example of how to list things you need to use the software and how to install them.
 * requirements.txt (for installing the main packages)
-* MAIN.ipybn (for starting the model by IDE)
-* MAIN_mlflow.ipybn (for starting the model by MLflow)
-* dataset.py (for preparation data)
-* residual_block.py (for develop the residual blocks with skip connections)
-* resnet18.py (for develop the model' structure)
+* task1.ipybn (for solution TASK 1. Time series analysis and forecasting)
+* task2.ipybn (for solution TASK 2. Binary classification)
+* task3.ipybn (for solution TASK 3. Analysis of subscriber tariff plans)
+* presentation (presentations with task results are located here)
+* result (vectors of forecasting are located here)
+
 
 ### Installation
 
