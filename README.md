@@ -58,6 +58,50 @@ _Below is an example of how you can  installing and setting up model._
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h2 id="task-2-binary-classification">TASK 2. Binary classification</h2>
+
+
+
+
+
+
+
+
+
+
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<h2 id="task-3-analysis-of-subscriber-tariff-plans">TASK 3. Analysis of subscriber tariff plans</h2>
+
+
+
+
+
+
+
+
+
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
  <!-- LICENSE -->
  ## License
@@ -87,15 +131,6 @@ _Below is an example of how you can  installing and setting up model._
  
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- <!-- TASK 1. Time series analysis and forecasting -->
- ## TASK 1. Time series analysis and forecasting 
- 
- Author of the project - [Email](https://kek777.mail.ru)
- 
- Project Link: [https://github.com](https://github.com/kek7777/Data_Analytics.git)
- 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
  <!-- TASK 2 -->
@@ -108,4 +143,3 @@ _Below is an example of how you can  installing and setting up model._
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
  
-<h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2>
