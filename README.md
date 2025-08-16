@@ -17,9 +17,9 @@ This project is educational. It presents solutions to the most pressing problems
             <li><a href="#file-assignment">File assignment</a></li>
             <li><a href="#installation">Installation</a></li>
           </ul>
-    <li><a href="#TASK1">TASK 1. Time series analysis and forecasting</a></li>
-    <li><a href="#TASK2">TASK 2. Binary classification</a></li>
-    <li><a href="#TASK3">TASK 3. Analysis of subscriber tariff plans</a></li>
+    <<li><a href="#task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</a></li>
+    <li><a href="#task-2-binary-classification">TASK 2. Binary classification</a></li>
+    <li><a href="#task-3-analysis-of-subscriber-tariff-plans">TASK 3. Analysis of subscriber tariff plans</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#Source-of-information">Source of information</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -88,7 +88,7 @@ _Below is an example of how you can  installing and setting up model._
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  <!-- TASK 1. Time series analysis and forecasting -->
- ## TASK 1. Time series analysis and forecasting
+ ## TASK 1. Time series analysis and forecasting {#task-1-time-series-analysis-and-forecasting}
  
  Author of the project - [Email](https://kek777.mail.ru)
  
