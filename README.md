@@ -1,9 +1,9 @@
-<img src="\title.jpg" width="800" height="300">
+<img src="src\img\title.jpg" width="800" height="300">
 
 <a id="readme-top"></a>
 
 <!-- TITLE -->
-#  **Data Analytics **
+#  ** Data Analytics **
 
 This project is educational. It created to solve tasks of sentiment analysis.
 You can analyze the accuracy of a model based on its hyperparameters.
