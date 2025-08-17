@@ -72,11 +72,11 @@ _Below is an example of how you can  installing and setting up model._
         Model 1 - default parameters.<br>
         Model 2 - parameters optimized using Prophet's built-in <strong>cross-validation</strong> function.<br>
         Model 3 - custom parameters based on Model2's configuration.<br>
-        All models were trained and tested on datasets containing 1552 training samples and 90 test samples.
-        The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.
+        All models were trained and tested on datasets containing 1552 training samples and 90 test samples.<br>
+        The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.<br>
         Research results showed that Model 3 achieved the lowest <strong>MAPE (0.13)</strong>, demonstrating the most accurate predictions for the time series.</p>
         <strong>Step 3. Forecasting.</strong><br> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated.<br> <strong>The forecast results:</strong><br> An overall positive trend with a minor downturn at the end of the forecast period.<br>
-        Forecast vector in file <strong>'forecast_1.csv'</strong>.<br>
+        Forecast vector is presented in the file <strong>'forecast_1.csv'</strong>.<br>
         Visualized results of the TASK 1 are presented in the file <strong>'task_1.pdf'</strong>.</p><br>
         <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
       <tr>
