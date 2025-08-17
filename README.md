@@ -39,6 +39,7 @@ This is an example of how to list things you need to use the software and how to
 * task1.ipybn (for solution TASK 1. Time series analysis and forecasting)
 * task2.ipybn (for solution TASK 2. Binary classification)
 * task3.ipybn (for solution TASK 3. Analysis of subscriber tariff plans)
+* data (csv-files for analytic)
 * presentation (presentations with task results are located here)
 * result (vectors of forecasting and saved Xgbmodel are located here)
 
@@ -55,10 +56,36 @@ _Below is an example of how you can  installing and setting up model._
    ```
    pip install -r requirements.txt
    ```
-
+   
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2>
+
+<details>
+  <summary> <h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2>
+ </summary>
+  <ol>
+    <li>
+          <a href="#getting-started">Getting Started</a>
+          <ul>
+            <li><a href="#file-assignment">File assignment</a></li>
+            <li><a href="#installation">Installation</a></li>
+          </ul>
+    <li><a href="#task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</a></li>
+    <li><a href="#task-2-binary-classification">TASK 2. Binary classification</a></li>
+    <li><a href="#task-3-analysis-of-subscriber-tariff-plans">TASK 3. Analysis of subscriber tariff plans</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#Source-of-information">Source of information</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- <h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2> -->
+
+Description of task
+
+Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.
 
 
 
