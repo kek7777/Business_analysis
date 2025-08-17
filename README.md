@@ -100,10 +100,6 @@ _Below is an example of how you can  installing and setting up model._
   </div>
 </details>
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 <!-- TASK 2 -->
 
 <details>
