@@ -60,7 +60,8 @@ _Below is an example of how you can  installing and setting up model._
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<details>  <summary><strong><h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2></strong></summary>
+<details>
+  <summary><strong><h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2></strong></summary>
   <div>
     <p><strong>DESCRIPTION OF TASK</strong><br>
     Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.</p>
@@ -99,6 +100,8 @@ _Below is an example of how you can  installing and setting up model._
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
+
 <details>
   <summary><strong><h2 id="task-2-binary-classification">TASK 2. Binary classification</h2></strong></summary>
   <div>
@@ -106,15 +109,30 @@ _Below is an example of how you can  installing and setting up model._
     Using the dataset on the "Training" sheet (see tasks_1_2.xlsx) as a training sample, predict the values of the target variable 'Target' for the dataset on the "Validate" sheet. Justify the choice of the method. Provide accuracy and predictive model quality metrics. Plot the ROC curve. Name the three most important predictors.</p>
     <p style="line-height: 1.2; margin: 0;">
     <strong>TASK PROGRESS</strong><br>
-        <strong>Step 1. Exploratory data analysis.</strong>  The data analysis showed that the data is structured and contains about <strong>3% missing values (null)</strong>. Additionally, there are outliers in the data. The target features are balanced.<br>
+        <strong>Step 1. Exploratory data analysis.</strong><br>  The data analysis showed that the data is structured and contains about <strong>3% missing values (null)</strong>. Additionally, there are outliers in the data. The target features are balanced.<br>
         Two approaches were considered for handling missing values: <strong>median</strong> replacement and <strong>KNNImputer</strong> (Scikit-learn). The best model performance was obtained when using the second imputation method.</p>
-        <strong>Step 2. Model training.</strong>  Three Prophet models with different parameter configurations were evaluated:<br>
-        Model 1 - default parameters.<br>
-        Model 2 - parameters optimized using Prophet's built-in <strong>cross-validation</strong> function.<br>
-        Model 3 - custom parameters based on Model2's configuration.<br>
-        All models were trained and tested on datasets containing 1552 training samples and 90 test samples.
-        The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.
-        Research results showed that Model 3 achieved the lowest <strong>MAPE (0.13)</strong>, demonstrating the most accurate predictions for the time series.</p>
+        <strong>Step 2. Model training.</strong><br> For a classification problem, three models were considered: <strong>DecisionTreeClassifier, XGBClassifier, and ExtraTreeClassifier</strong>.<br> The models' parameters were tuned using <strong>GridSearchCV</strong>.<br>
+        All models were trained and tested on data split into 80% train and 20% test sets.<br>
+      The selection of the most accurate model was based on the analysis of the following metrics: <strong>ROC, Recall, Accuracy, Precision, F1, and Confusion Matrix</strong>.<br>
+      The training found that the <strong>XGBClassifier model</strong> provides the most accurate classification of the classes.<br>
+      <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
+      <tr>
+      <th colspan="2" style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Metrics</th>
+      </tr>
+      <tr>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">ROC:</td>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">0.78</td>
+      </tr>
+      <tr>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">Precision:</td>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">0.71</td>
+      </tr>
+      <tr>
+      <td style="padding: 8px;">F1:</td>
+      <td style="padding: 8px; text-align: right;">0.69</td>
+      </tr>
+      </table>
+      </p>
         <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated. <strong>The forecast results:</strong> an overall positive trend with a minor downturn at the end of the forecast period.</p>
         <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
       <tr>
