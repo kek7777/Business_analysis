@@ -75,7 +75,7 @@ _Below is an example of how you can  installing and setting up model._
         All models were trained and tested on datasets containing 1552 training samples and 90 test samples.
         The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.
         Research results showed that Model 3 achieved the lowest <strong>MAPE (0.13)</strong>, demonstrating the most accurate predictions for the time series.</p>
-        <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated. <strong>The forecast results:</strong> an overall positive trend with a minor downturn at the end of the forecast period.</p><br>
+        <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated.<br> <strong>The forecast results:</strong> an overall positive trend with a minor downturn at the end of the forecast period.<br>
         Forecast vector in file 'forecast_1.csv'.<br>
         Visualized results of the TASK 1 are presented in the file 'task_1.pdf'.</p><br>
         <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
