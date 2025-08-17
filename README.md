@@ -67,8 +67,14 @@ _Below is an example of how you can  installing and setting up model._
     Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.</p>
     <p style="line-height: 1.2; margin: 0;">
     <strong>Task progress</strong><br>
-        <strong>Step 1. Time series analysis.</strong>  The objective of the time series analysis was to examine its structure and key characteristics: trend, seasonality, and stationarity. For this purpose, the capabilities of the Pandas and Statsmodels libraries were utilized. The analysis revealed that the time series is  <strong>well-structured</strong>  and contains no missing (null) values. It also exhibits  <strong>weak stationarity, annual seasonality, and a positive upward trend.</strong>  Based on a review of scientific and technical literature, and considering the characteristics of the time series under study, the  <strong>PROPHET model</strong>  was selected for further investigation.
-    </p>
+        <strong>Step 1. Time series analysis.</strong>  The objective of the time series analysis was to examine its structure and key characteristics: trend, seasonality, and stationarity. For this purpose, the capabilities of the Pandas and Statsmodels libraries were utilized. The analysis revealed that the time series is  <strong>well-structured</strong>  and contains no missing (null) values. It also exhibits  <strong>weak stationarity, annual seasonality, and a positive upward trend.</strong>  Based on a review of scientific and technical literature, and considering the characteristics of the time series under study, the  <strong>PROPHET model</strong>  was selected for further investigation.</p>
+        <strong>Step 2. Model training.</strong>  Three Prophet models with different parameter configurations were evaluated:<br>
+        Model 1 - default parameters.<br>
+        Model 2 - parameters optimized using Prophet's built-in <strong>cross-validation</strong> function.<br>
+        Model 3 - manually tuned parameters based on Model2's configuration.<br>
+        All models were trained and tested on datasets containing 1552 training samples and 90 test samples.
+        The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.
+        Research results showed that Model 3 achieved the lowest MAPE (0.13), demonstrating the most accurate predictions for the time series.
   </div>
 </details>
 
