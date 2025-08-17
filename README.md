@@ -76,25 +76,23 @@ _Below is an example of how you can  installing and setting up model._
         The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.
         Research results showed that Model 3 achieved the lowest <strong>MAPE (0.13)</strong>, demonstrating the most accurate predictions for the time series.</p>
         <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated. The forecast results: an overall positive trend with a minor downturn at the end of the forecast period.</p>
-        <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
-    <tr>
+        <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
+      <tr>
       <th colspan="2" style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Predicted values</th>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
       <td style="padding: 8px; border-bottom: 1px solid #ddd;">max:</td>
       <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">6564</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
       <td style="padding: 8px; border-bottom: 1px solid #ddd;">min:</td>
       <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">3400</td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
       <td style="padding: 8px;">mean:</td>
       <td style="padding: 8px; text-align: right;">4877</td>
-    </tr>
-  </table>
-</div>
+      </tr>
+      </table>
   </div>
 </details>
 
