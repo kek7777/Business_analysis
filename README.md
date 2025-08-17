@@ -75,7 +75,7 @@ _Below is an example of how you can  installing and setting up model._
         All models were trained and tested on datasets containing 1552 training samples and 90 test samples.
         The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.
         Research results showed that Model 3 achieved the lowest <strong>MAPE (0.13)</strong>, demonstrating the most accurate predictions for the time series.</p>
-        <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated. The forecast results: an overall positive trend with a minor downturn at the end of the forecast period.</p>
+        <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated. <strong>The forecast results:</strong> an overall positive trend with a minor downturn at the end of the forecast period.</p>
         <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
       <tr>
       <th colspan="2" style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Predicted values</th>
@@ -95,37 +95,44 @@ _Below is an example of how you can  installing and setting up model._
       </table>
   </div>
 </details>
-
-
-
-<!-- <h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<h2 id="task-2-binary-classification">TASK 2. Binary classification</h2>
 
-
-
-
-
-
-
-
-
-
-
+<details>
+  <summary><strong><h2 id="task-2-binary-classification">TASK 2. Binary classification</h2></strong></summary>
+  <div>
+    <p><strong>DESCRIPTION OF TASK</strong><br>
+    Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.</p>
+    <p style="line-height: 1.2; margin: 0;">
+    <strong>TASK PROGRESS</strong><br>
+        <strong>Step 1. Time series analysis.</strong>  The objective of the time series analysis was to examine its structure and key characteristics: trend, seasonality, and stationarity. For this purpose, the capabilities of the Pandas and Statsmodels libraries were utilized. The analysis revealed that the time series is  <strong>well-structured</strong>  and contains no missing (null) values. It also exhibits  <strong>weak stationarity, annual seasonality, and a positive upward trend.</strong>  Based on a review of scientific and technical literature, and considering the characteristics of the time series under study, the  <strong>PROPHET model</strong>  was selected for further investigation.</p>
+        <strong>Step 2. Model training.</strong>  Three Prophet models with different parameter configurations were evaluated:<br>
+        Model 1 - default parameters.<br>
+        Model 2 - parameters optimized using Prophet's built-in <strong>cross-validation</strong> function.<br>
+        Model 3 - custom parameters based on Model2's configuration.<br>
+        All models were trained and tested on datasets containing 1552 training samples and 90 test samples.
+        The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.
+        Research results showed that Model 3 achieved the lowest <strong>MAPE (0.13)</strong>, demonstrating the most accurate predictions for the time series.</p>
+        <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated. <strong>The forecast results:</strong> an overall positive trend with a minor downturn at the end of the forecast period.</p>
+        <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
+      <tr>
+      <th colspan="2" style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Predicted values</th>
+      </tr>
+      <tr>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">max:</td>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">6564</td>
+      </tr>
+      <tr>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd;">min:</td>
+      <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">3400</td>
+      </tr>
+      <tr>
+      <td style="padding: 8px;">mean:</td>
+      <td style="padding: 8px; text-align: right;">4877</td>
+      </tr>
+      </table>
+  </div>
+</details>
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
