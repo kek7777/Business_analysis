@@ -74,11 +74,20 @@ _Below is an example of how you can  installing and setting up model._
         Model 3 - custom parameters based on Model2's configuration.<br>
         All models were trained and tested on datasets containing 1552 training samples and 90 test samples.
         The most accurate model was selected based on the minimum MAPE (Mean Absolute Percentage Error) value.
-        Research results showed that Model 3 achieved the lowest MAPE (0.13), demonstrating the most accurate predictions for the time series.<br>
+        Research results showed that Model 3 achieved the lowest MAPE (0.13), demonstrating the most accurate predictions for the time series.<br><p>
         <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated. The forecast results: an overall positive trend with a minor downturn at the end of the forecast period.<br>
-        Predicted values : max: 6564<br>
-                           min:  3400<br>
-                           mean: 4877<br><p>
+        <div style="font-family: Arial, sans-serif;">
+  <div><strong>Predicted values:</strong></div>
+  <div style="display: flex; justify-content: space-between; width: 120px;">
+    <span>max:</span><span>6564</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; width: 120px;">
+    <span>min:</span><span>3400</span>
+  </div>
+  <div style="display: flex; justify-content: space-between; width: 120px;">
+    <span>mean:</span><span>4877</span>
+  </div>
+</div>
   </div>
 </details>
 
