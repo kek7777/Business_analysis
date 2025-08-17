@@ -202,13 +202,5 @@ _Below is an example of how you can  installing and setting up model._
 
 
 
- <!-- TASK 2 -->
- ## TASK 2. Binary classification
- 
- Author of the project - [Email](https://kek777.mail.ru)
- 
- Project Link: [https://github.com](https://github.com/kek7777/Data_Analytics.git)
- 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
+
  
