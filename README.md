@@ -63,10 +63,10 @@ _Below is an example of how you can  installing and setting up model._
 <details>
   <summary><strong><h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2></strong></summary>
   <div>
-    <p><strong>Description of task:</strong></p>
+    <p><strong>Description of task</strong><br>
     <p>Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.</p>
     <p style="line-height: 1.2; margin: 0;">
-    <strong>Task progress:</strong><br>
+    <strong>Task progress</strong><br>
     The order of execution of the work was divided into some steps:<br>
     <strong>Step 1. Time series analysis.</strong>  The objective of the time series analysis was to examine its structure and key characteristics: trend, seasonality, and stationarity. For this purpose, the capabilities of the Pandas and Statsmodels libraries were utilized. The analysis revealed that the time series is  <strong>well-structured</strong>  and contains no missing (null) values. It also exhibits  <strong>weak stationarity, annual seasonality, and a positive upward trend.</strong>  Based on a review of scientific and technical literature, and considering the characteristics of the time series under study, the  <strong>PROPHET model</strong>  was selected for further investigation.
     </p>
