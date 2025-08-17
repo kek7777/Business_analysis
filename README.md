@@ -60,6 +60,8 @@ _Below is an example of how you can  installing and setting up model._
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- TASK 1 -->
+
 <details>
   <summary><strong><h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2></strong></summary>
   <div>
@@ -102,6 +104,8 @@ _Below is an example of how you can  installing and setting up model._
 
 
 
+<!-- TASK 2 -->
+
 <details>
   <summary><strong><h2 id="task-2-binary-classification">TASK 2. Binary classification</h2></strong></summary>
   <div>
@@ -114,7 +118,7 @@ _Below is an example of how you can  installing and setting up model._
         <strong>Step 2. Model training.</strong><br> For a classification problem, three models were considered: <strong>DecisionTreeClassifier, XGBClassifier, and ExtraTreeClassifier</strong>.<br> The models' parameters were tuned using <strong>GridSearchCV</strong>.<br>
         All models were trained and tested on data split into 80% train and 20% test sets.<br>
       The selection of the most accurate model was based on the analysis of the following metrics: <strong>ROC, Recall, Accuracy, Precision, F1, and Confusion Matrix</strong>.<br>
-      The training found that the <strong>XGBClassifier model</strong> provides the most accurate classification of the classes.<br>
+      The training found that the <strong>XGBClassifier model</strong> provides the most accurate classification of the classes.<br></p>
       <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
       <tr>
       <th colspan="2" style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Metrics</th>
@@ -155,6 +159,9 @@ _Below is an example of how you can  installing and setting up model._
 </details>
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<!-- TASK 3 -->
 
 <h2 id="task-3-analysis-of-subscriber-tariff-plans">TASK 3. Analysis of subscriber tariff plans</h2>
 
