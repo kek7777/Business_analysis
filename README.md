@@ -61,26 +61,11 @@ _Below is an example of how you can  installing and setting up model._
 
 
 <details>
-  <summary> <h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2>
- </summary>
-  <ol>
-    Description of task
-
-    Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.
-
-    <li>
-          <a href="#getting-started">Getting Started</a>
-          <ul>
-            <li><a href="#file-assignment">File assignment</a></li>
-            <li><a href="#installation">Installation</a></li>
-          </ul>
-    <li><a href="#task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</a></li>
-    <li><a href="#task-2-binary-classification">TASK 2. Binary classification</a></li>
-    <li><a href="#task-3-analysis-of-subscriber-tariff-plans">TASK 3. Analysis of subscriber tariff plans</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#Source-of-information">Source of information</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
+  <summary><strong>TASK 1. Time series analysis and forecasting</strong></summary>
+  <div>
+    <p><strong>Description of task:</strong></p>
+    <p>Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.</p>
+  </div>
 </details>
 
 
