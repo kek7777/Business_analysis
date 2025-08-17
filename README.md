@@ -153,35 +153,19 @@ _Below is an example of how you can  installing and setting up model._
     <p><strong>DESCRIPTION OF TASK</strong><br>
     The file "Tariff_plans_change.csv" contains sample data on transactions related to the activation and deactivation of tariff plans by subscribers who switched tariff plans in the first half of 2017. The file "Charges.csv" contains monthly historical data on subscribers' total mobile service expenses. The file "Suspended.csv" contains historical data on subscriber suspensions in transactional form.<br>
     The following questions need to be investigated:<br>
-    <strong>Directions of tariff plan changes</strong>:<br> From which tariff plans and to which ones were the largest migrations? Visualize the migration flows in a diagram.<br> <strong>Change in the average monthly bill</strong>: How did the average monthly bill of subscribers change over the 3-month period after the month of switching compared to the 3-month period before the switch? Which tariff plan change directions were associated with an increase in the average bill, and which with a decrease? <br> <strong>Change in suspension rates</strong>: Similarly to point 2, but regarding changes in suspension frequency—how much less or more often subscribers were suspended after migration, both overall and for each migration direction separately. Use the same comparison periods: 3 months before the switch month and 3 months after.</p>
+    <strong>1.Directions of tariff plan changes</strong>:<br> From which tariff plans and to which ones were the largest migrations? Visualize the migration flows in a diagram.<br> <strong>2.Change in the average monthly bill</strong>: How did the average monthly bill of subscribers change over the 3-month period after the month of switching compared to the 3-month period before the switch? Which tariff plan change directions were associated with an increase in the average bill, and which with a decrease? <br> <strong>3.Change in suspension rates</strong>: Similarly to point 2, but regarding changes in suspension frequency—how much less or more often subscribers were suspended after migration, both overall and for each migration direction separately. Use the same comparison periods: 3 months before the switch month and 3 months after.</p>
     <p style="line-height: 1.2; margin: 0;">
     <strong>TASK PROGRESS</strong><br>
-        <strong>Step 1. Exploratory data analysis.</strong><br>  The data analysis showed that the data is structured and contains about <strong>3% missing values (null)</strong>. Additionally, there are outliers in the data. The target features are balanced.<br>
-        Two approaches were considered for handling missing values: <strong>median</strong> replacement and <strong>KNNImputer</strong> (Scikit-learn). The best model performance was obtained when using the second imputation method.</p>
-        <strong>Step 2. Model training.</strong><br> For a classification problem, three models were considered: <strong>DecisionTreeClassifier, XGBClassifier, and ExtraTreeClassifier</strong>.<br> The models' parameters were tuned using <strong>GridSearchCV</strong>.<br>
-        All models were trained and tested on data split into 80% train and 20% test sets.<br>
-      The selection of the most accurate model was based on the analysis of the following metrics: <strong>ROC, Recall, Accuracy, Precision, F1, and Confusion Matrix</strong>.<br>
-      The training found that the <strong>XGBClassifier model</strong> provides the most accurate classification of the classes.<br></p>
-      <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
-      <tr>
-      <th colspan="2" style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Metrics</th>
-      </tr>
-      <tr>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd;">ROC:</td>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">0.78</td>
-      </tr>
-      <tr>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd;">Precision:</td>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">0.71</td>
-      </tr>
-      <tr>
-      <td style="padding: 8px;">F1:</td>
-      <td style="padding: 8px; text-align: right;">0.69</td>
-      </tr>
-      </table>
-      </p>
-      The features were also assessed according to their degree of influence on the MSE. Of the 31 features, three have the greatest influence on prediction: <strong>P22, P1, P9</strong>.</p>
-        <strong>Step 3. Forecasting.</strong><br> Using XGBClassifier model, the target variable 'Target' was  generated. Distribution of predicted classes: <strong>Class 0 (15508), Class 1 (4492)</strong>.</p>
+        <strong>Step 1. Exploratory data analysis.</strong><br>
+          Data analysis showed that the structured data does not contain null values.<br>
+        </p>
+        <strong>Step 2. Working with dataframes.</strong><br> To answer the question about which tariff plans had the largest migration flows (from which plans and to which ones), the following steps were performed:<br>
+        1.Converting date columns to datetime format.<br>
+        2.For each subscriber (SUBSCRIBER_ID), tariff plans were ordered by their activation time (START_DTTM). Then, "from-to" pairs (previous tariff → next tariff) were identified.<br>
+        3.Creating a transition matrix, where each row represents a "source tariff → new tariff" combination.<br>
+        4.Visualizing migration flows.<br></p>
+         <strong>Step 3. Results.</strong><br> The largest flows were from <strong>'3' and '1'</strong> to <strong>'5'</strong> tariff plan.<br>
+         </p>
   </div>
 </details>
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
