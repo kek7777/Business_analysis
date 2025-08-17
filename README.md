@@ -138,24 +138,7 @@ _Below is an example of how you can  installing and setting up model._
       </table>
       </p>
       The features were also assessed according to their degree of influence on the MSE. Of the 31 features, three have the greatest influence on prediction: <strong>P22, P1, P9</strong>.</p>
-        <strong>Step 3. Forecasting.</strong><br> Using XGBClassifier model, the target variable 'Target' was  generated. <strong>The forecast results:</strong> an overall positive trend with a minor downturn at the end of the forecast period.</p>
-        <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
-      <tr>
-      <th colspan="2" style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Predicted values</th>
-      </tr>
-      <tr>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd;">max:</td>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">6564</td>
-      </tr>
-      <tr>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd;">min:</td>
-      <td style="padding: 8px; border-bottom: 1px solid #ddd; text-align: right;">3400</td>
-      </tr>
-      <tr>
-      <td style="padding: 8px;">mean:</td>
-      <td style="padding: 8px; text-align: right;">4877</td>
-      </tr>
-      </table>
+        <strong>Step 3. Forecasting.</strong><br> Using XGBClassifier model, the target variable 'Target' was  generated. Distribution of predicted classes: <strong>Class 0 (15508), Class 1 (4492)</strong>.</p>
   </div>
 </details>
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
