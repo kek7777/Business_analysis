@@ -63,7 +63,7 @@ _Below is an example of how you can  installing and setting up model._
 <details>
   <summary><strong><h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2></strong></summary>
   <div>
-    <p><strong><h3 Description of task </h3></strong></p>
+    <p><strong>< Description of task ></strong></p>
     <p>Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.</p>
   </div>
 </details>
