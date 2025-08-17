@@ -39,9 +39,9 @@ This is an example of how to list things you need to use the software and how to
 * task1.ipybn (for solution TASK 1. Time series analysis and forecasting)
 * task2.ipybn (for solution TASK 2. Binary classification)
 * task3.ipybn (for solution TASK 3. Analysis of subscriber tariff plans)
-* data (csv-files for analytic)
-* presentation (presentations with task results are located here)
-* result (vectors of forecasting and saved Xgbmodel are located here)
+* 'data' (csv-files for analytic)
+* 'presentation' (presentations with task results are located here)
+* 'result' (vectors of forecasting and saved Xgbmodel are located here)
 
 
 ### Installation
@@ -104,10 +104,11 @@ _Below is an example of how you can  installing and setting up model._
   <summary><strong><h2 id="task-2-binary-classification">TASK 2. Binary classification</h2></strong></summary>
   <div>
     <p><strong>DESCRIPTION OF TASK</strong><br>
-    Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.</p>
+    Using the dataset on the "Training" sheet (see tasks_1_2.xlsx) as a training sample, predict the values of the target variable 'Target' for the dataset on the "Validate" sheet. Justify the choice of the method. Provide accuracy and predictive model quality metrics. Plot the ROC curve. Name the three most important predictors.</p>
     <p style="line-height: 1.2; margin: 0;">
     <strong>TASK PROGRESS</strong><br>
-        <strong>Step 1. Time series analysis.</strong>  The objective of the time series analysis was to examine its structure and key characteristics: trend, seasonality, and stationarity. For this purpose, the capabilities of the Pandas and Statsmodels libraries were utilized. The analysis revealed that the time series is  <strong>well-structured</strong>  and contains no missing (null) values. It also exhibits  <strong>weak stationarity, annual seasonality, and a positive upward trend.</strong>  Based on a review of scientific and technical literature, and considering the characteristics of the time series under study, the  <strong>PROPHET model</strong>  was selected for further investigation.</p>
+        <strong>Step 1. Exploratory data analysis.</strong>  The data analysis showed that the data is structured and contains about <strong>3% missing values (null)</strong>. Additionally, there are outliers in the data. The target features are balanced.<br>
+        Two approaches were considered for handling missing values: <strong>median</strong> replacement and <strong>KNNImputer</strong> (Scikit-learn). The best model performance was obtained when using the second imputation method.</p>
         <strong>Step 2. Model training.</strong>  Three Prophet models with different parameter configurations were evaluated:<br>
         Model 1 - default parameters.<br>
         Model 2 - parameters optimized using Prophet's built-in <strong>cross-validation</strong> function.<br>
