@@ -137,7 +137,8 @@ _Below is an example of how you can  installing and setting up model._
       </tr>
       </table>
       </p>
-        <strong>Step 3. Forecasting.</strong> Using Model 3, 3-month forecast (July 1 - September 28, 2019) were  generated. <strong>The forecast results:</strong> an overall positive trend with a minor downturn at the end of the forecast period.</p>
+      The features were also assessed according to their degree of influence on the MSE. Of the 31 features, three have the greatest influence on prediction: <strong>P22, P1, P9</strong>.</p>
+        <strong>Step 3. Forecasting.</strong><br> Using XGBClassifier model, the target variable 'Target' was  generated. <strong>The forecast results:</strong> an overall positive trend with a minor downturn at the end of the forecast period.</p>
         <table style="border-collapse: collapse; width: 200px; font-family: Arial, sans-serif;">
       <tr>
       <th colspan="2" style="border-bottom: 1px solid #ddd; padding: 8px; text-align: left;">Predicted values</th>
