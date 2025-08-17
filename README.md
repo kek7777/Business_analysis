@@ -67,7 +67,7 @@ _Below is an example of how you can  installing and setting up model._
     <p>Using historical data on the "Timeseries" sheet (see tasks_1_2.xlsx), build a time series model. Predict the daily behavior of the series over the next 3 months. Explain the choice of forecasting method. Provide estimates of the forecast quality.</p>
     <p style="line-height: 1.2; margin: 0;">
     <strong>Task progress:</strong><br>
-    The order of execution of the work was divided into some steps:</p>
+    The order of execution of the work was divided into some steps:<br>
     Step 1. The order of execution of the work was divided into several stages.</p>
   </div>
 </details>
