@@ -60,7 +60,7 @@ _Below is an example of how you can  installing and setting up model._
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<details>
+
   <summary><strong><h2 id="task-1-time-series-analysis-and-forecasting">TASK 1. Time series analysis and forecasting</h2></strong></summary>
   <div>
     <p><strong>DESCRIPTION OF TASK</strong><br>
@@ -96,7 +96,7 @@ _Below is an example of how you can  installing and setting up model._
       </tr>
       </table>
   </div>
-</details>
+
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
